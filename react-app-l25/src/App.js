@@ -14,7 +14,7 @@ function App() {
         <Route path="/" exact component={HomePage}/>
         <Route path="/post" component={PostPage}/>
         <Route path="/photo" component={PhotoPage}/>
-        <Route path="/contact" exact component={ContactsPage}/>
+        <Route path="/contact" component={ContactsPage}/>
         
       </Router>
     </div>
