@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.post {
+    height: 400px;
+    width: 540px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color:rgb(199, 195, 197);
+}
+
+.header {
+    height: 75px;
+}
+
+.headerText {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+}
+
+.ico {
+    width: 20px;
+    height: 20px;
+}
+
+.date,
+.nickname {
+    color: black;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.text,
+.authorName {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 5px;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.authorImg {
+    float: left;
+    width: 10%;
+    height: 60px;
+    border-radius: 13px;
+    margin: 5px
+;
+}
+
+.main {
+    float: right;
+    margin: 10px;
+}
+
+.contentImage {
+    border-radius: 15px;
+    height: 250px;
+    width: 450px;
+}
+
+.footer {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    /*border: 2px solid red;*/
+    width: 90%;
+}
+
+.like,
+.comments,
+.share {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+
+
+.likeImg{
+    width: 20px;
+
+}
+.iconBox{
+    display: flex;
+}

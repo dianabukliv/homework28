@@ -1,0 +1,9 @@
+.inputForm{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
